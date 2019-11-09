@@ -1,1 +1,18 @@
 /* Site Styles Go Here */
+.footer{
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+    list-style-type: none;
+
+}
+
+/* two advanced CSS selectors that 
+utilize one or more of the following: attribute selector, pseudoclass, conditional selector.  */
+.card a:hover {
+background-color:aqua;
+}
+.card a:visited{
+    color: red;
+}
