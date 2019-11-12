@@ -1,10 +1,12 @@
 /* Site Styles Go Here */
-.footer{
-    text-align: center;
-    justify-content: space-between;
-    align-items: center;
-    display:flex;
-    list-style-type: none;
+.footer-flex{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.footer-item-flex{
+flex: 0 1 auto;
 
 }
 
@@ -14,5 +16,15 @@ utilize one or more of the following: attribute selector, pseudoclass, condition
 background-color:aqua;
 }
 .card a:visited{
-    color: red;
+    color: brown;
 }
+
+[class|="btn btn-primary"] {
+
+    border: dashed greenyellow;
+
+}
+p:hover{
+    text-decoration: underline;
+}
+
