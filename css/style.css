@@ -29,3 +29,32 @@ utilize one or more of the following: attribute selector, pseudoclass, condition
 p:hover {
     text-decoration: underline;
 }
+
+  /* sm */
+  @media (min-width: 731px) {
+    body{
+    background-color:lightsalmon;
+    }
+    #width-val:before {
+      content: "731px";
+    }
+  }
+  /* md */
+  @media (min-width: 1024px) {
+    body{
+    background-color:lightgreen;
+    }
+    #width-val:before {
+      content: "1024px";
+    }
+  }
+  
+  /* lg */
+  @media (min-width: 1600px) {
+    body{
+    background-color:cyan;
+    }
+    #width-val:before {
+      content: "1600px";
+    }
+  }
