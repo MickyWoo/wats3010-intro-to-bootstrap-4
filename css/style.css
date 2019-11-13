@@ -1,21 +1,22 @@
 /* Site Styles Go Here */
-.footer-flex{
-display:flex;
-flex-direction: row;
-justify-content: space-between;
+.footer-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.footer-item-flex{
-flex: 0 1 auto;
+.footer-item-flex {
+    flex: 0 1 auto;
 
 }
 
 /* two advanced CSS selectors that 
 utilize one or more of the following: attribute selector, pseudoclass, conditional selector.  */
 .card a:hover {
-background-color:aqua;
+    background-color: aqua;
 }
-.card a:visited{
+
+.card a:visited {
     color: brown;
 }
 
@@ -24,7 +25,7 @@ background-color:aqua;
     border: dashed greenyellow;
 
 }
-p:hover{
+
+p:hover {
     text-decoration: underline;
 }
-
