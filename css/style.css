@@ -33,7 +33,7 @@ p:hover {
   /* sm */
   @media (min-width: 731px) {
     body{
-    background-color:lightsalmon;
+    background-color:mediumslateblue;
     }
     #width-val:before {
       content: "731px";
@@ -42,7 +42,7 @@ p:hover {
   /* md */
   @media (min-width: 1024px) {
     body{
-    background-color:lightgreen;
+    background-color:mediumaquamarine;
     }
     #width-val:before {
       content: "1024px";
@@ -52,7 +52,7 @@ p:hover {
   /* lg */
   @media (min-width: 1600px) {
     body{
-    background-color:cyan;
+    background-color:mistyrose;
     }
     #width-val:before {
       content: "1600px";
