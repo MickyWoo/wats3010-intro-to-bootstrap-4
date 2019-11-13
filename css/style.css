@@ -1,76 +1,81 @@
 /* Site Styles Go Here */
 .footer-flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .footer-item-flex {
-    flex: 0 1 auto;
+  flex: 0 1 auto;
 
 }
 
 /* two advanced CSS selectors that 
 utilize one or more of the following: attribute selector, pseudoclass, conditional selector.  */
 .card a:hover {
-    background-color: aqua;
+  background-color: aqua;
 }
 
 .card a:visited {
-    color: brown;
+  color: brown;
 }
 
 [class|="btn btn-primary"] {
 
-    border: dashed greenyellow;
+  border: dashed greenyellow;
 
 }
 
 p:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 
 /* media q FOR different sizes of devices  */
 
- /* xs */
- @media (min-width: 320px) {
+/* xs */
+@media (min-width: 320px) {
   body {
     background-color: lightgrey;
   }
+
   #width-val:before {
     content: "320px";
   }
 }
 
-  /* handheld  */
-  @media (min-width: 567px) {
-    body{
-    background-color:mediumslateblue;
-    
-    }
-    #width-val:before {
-      content: "567px";
-    }
+/* handheld  */
+@media (min-width: 567px) {
+  body {
+    background-color: mediumslateblue;
+
   }
-  /* tablets */
-  @media (min-width: 731px) {
-    body{
-    background-color:mediumaquamarine;
-    
-    }
-    #width-val:before {
-      content: "731px";
-    }
+
+  #width-val:before {
+    content: "567px";
   }
-  
-  /* laptops+ */
-  @media (min-width: 992px) {
-    body{
-    background-color:mistyrose;
-    
-    }
-    #width-val:before {
-      content: "992px";
-    }
+}
+
+/* tablets */
+@media (min-width: 731px) {
+  body {
+    background-color: mediumaquamarine;
+
   }
+
+  #width-val:before {
+    content: "731px";
+  }
+}
+
+/* laptops+ */
+@media (min-width: 992px) {
+  body {
+    background-color: mistyrose;
+
+  }
+
+  #width-val:before {
+    content: "992px";
+  }
+}
