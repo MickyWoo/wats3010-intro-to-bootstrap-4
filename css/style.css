@@ -30,31 +30,47 @@ p:hover {
     text-decoration: underline;
 }
 
-  /* sm */
-  @media (min-width: 731px) {
+
+/* media q FOR different sizes of devices  */
+
+ /* xs */
+ @media (min-width: 320px) {
+  body {
+    background-color: lightgrey;
+  }
+  #width-val:before {
+    content: "320px";
+  }
+}
+
+  /* handheld  */
+  @media (min-width: 567px) {
     body{
     background-color:mediumslateblue;
+    
+    }
+    #width-val:before {
+      content: "567px";
+    }
+  }
+  /* tablets */
+  @media (min-width: 731px) {
+    body{
+    background-color:mediumaquamarine;
+    
     }
     #width-val:before {
       content: "731px";
     }
   }
-  /* md */
-  @media (min-width: 1024px) {
-    body{
-    background-color:mediumaquamarine;
-    }
-    #width-val:before {
-      content: "1024px";
-    }
-  }
   
-  /* lg */
-  @media (min-width: 1600px) {
+  /* laptops+ */
+  @media (min-width: 992px) {
     body{
     background-color:mistyrose;
+    
     }
     #width-val:before {
-      content: "1600px";
+      content: "992px";
     }
   }
